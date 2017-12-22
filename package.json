@@ -1,0 +1,57 @@
+{
+  "name": "m-example",
+  "version": "0.2.2",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-expo": "^21.0.2",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "android-release": "react-native run-android --variant=release",
+    "android-uninstall": "adb uninstall co.tegra.moneta",
+    "generate-apk": "cd android && ./gradlew assembleRelease",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "analytics-react-native": "^1.2.0",
+    "babel-plugin-transform-remove-console": "^6.8.5",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.6.0",
+    "randomcolor": "^0.5.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.48.4",
+    "react-native-analytics": "^0.1.1",
+    "react-native-animatable": "^1.2.4",
+    "react-native-fbsdk": "^0.6.3",
+    "react-native-google-signin": "^0.12.0",
+    "react-native-pie": "^0.3.0",
+    "react-native-pie-chart": "^1.0.12",
+    "react-native-progress": "^3.4.0",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-swipe-list-view": "^0.4.1",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-swiper": "^1.5.10",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}

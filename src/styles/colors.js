@@ -1,0 +1,17 @@
+export const RED = '#D8493A';
+export const BLUE = '#41539F';
+export const DARK = '#2E2E2E';
+export const BLACK = '#111';
+export const LIGHT_DARK = '#41586B';
+export const GOLD = '#F2D6B8';
+export const WHITE = '#FFF';
+export const TEXT_GREEN = '#ACCAA6';
+export const TEXT_GREEN_DARK = '#5FBF56'
+export const TEXT_RED = '#FF7575';
+export const TEXT_RED_DARK = '#FF5252';
+export const GRAY = '#F4F4F4';
+export const DARK_GRAY = '#9D9D9D';
+export const ORANGE = '#F9B54C';
+export const CELLO = '#3E5A68';
+export const CELLO_DARK = '#354F5C';
+export const SILVER = '#C4C4C4';
